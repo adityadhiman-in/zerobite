@@ -1,8 +1,8 @@
-# FeedForward – Smart Food Donation & Sustainability Platform
+# ZeroBite - Zero Waste. Zero Hunger.
 
 ![alt text](img.png)
 
-FeedForward is a modern web prototype that connects individuals, restaurants, and stores with nearby communities to **donate surplus food**, reducing waste and increasing access to food.  
+ZeroBite is a modern web prototype that connects individuals, restaurants, and stores with nearby communities to **donate surplus food**, reducing waste and increasing access to food.  
 It also helps manage **non-edible waste** by converting it into compost and bone meal — fighting hunger while promoting sustainability. 🌱
 
 ---
@@ -38,7 +38,7 @@ It also helps manage **non-edible waste** by converting it into compost and bone
 ## Project Structure
 
 ```
-feedforward/
+ZeroBite/
 │── index.html # Main entry (with sections loaded dynamically)
 │── style.css # Styling with CSS variables and responsive design
 │── app.js # Application logic (routing, data, interactions)

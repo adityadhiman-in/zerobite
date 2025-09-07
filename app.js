@@ -1,4 +1,4 @@
-/* app.js - FeedForward prototype
+/* app.js - ZeroBite prototype
    - hash routing: #home, #donor, #recipient, #leaderboard, #campaigns, #admin
    - localStorage-backed seed data
    - dynamic rendering for each view
@@ -76,7 +76,7 @@ const seedFood = [
 const seedUsers = [
   "aditya@example.com",
   "manager@greencafe.com",
-  "admin@feedforward.org",
+  "admin@ZeroBite.org",
 ];
 
 function seedLocal() {
@@ -102,10 +102,10 @@ function renderHeader(active) {
   header.innerHTML = `
   <div class="container inner">
     <div class="brand">
-      <div class="logo-mark">FF</div>
+      <div class="logo-mark">ZB</div>
       <div>
-        <div class="logo-text">FeedForward</div>
-        <div class="kicker">Fight Hunger · Stop Waste</div>
+        <div class="logo-text">ZeroBite</div>
+        <div class="kicker">Zero Waste. Zero Hunger.</div>
       </div>
     </div>
 
@@ -140,7 +140,7 @@ function renderFooter() {
   const footer = document.createElement("footer");
   footer.className = "footer";
   footer.innerHTML = `<div class="container"><div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap">
-    <div style="color:var(--muted)">© ${new Date().getFullYear()} FeedForward · Built for good</div>
+    <div style="color:var(--muted)">© ${new Date().getFullYear()} ZeroBite · Built for good</div>
     <div style="display:flex;gap:0.6rem;color:var(--muted)"><a href="#campaigns">Impact</a><a href="#admin">Admin</a><a href="#">Contact</a></div>
   </div></div>`;
   return footer;
@@ -158,7 +158,7 @@ function viewHome() {
     <div class="hero-card">
       <div>
         <h1>Fight Hunger. <span style="color:var(--accent)">Stop Waste.</span></h1>
-        <p class="meta">FeedForward connects surplus food from individuals, restaurants, and stores to local communities in need — and turns non-edible waste into compost.</p>
+        <p class="meta">ZeroBite connects surplus food from individuals, restaurants, and stores to local communities in need — and turns non-edible waste into compost.</p>
         <div class="cta-row">
           <button class="btn" onclick="location.hash='#donor'">Donate Now</button>
           <button class="btn secondary" onclick="location.hash='#campaigns'">See Campaigns</button>
