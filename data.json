@@ -1,0 +1,15 @@
+{
+  "donors": [
+    { "id": 1, "name": "Aditya Dhiman", "type": "Individual", "donations": 22, "points": 420 },
+    { "id": 2, "name": "Green Cafe", "type": "Restaurant", "donations": 130, "points": 3120 },
+    { "id": 3, "name": "FreshMart", "type": "Store", "donations": 82, "points": 1800 },
+    { "id": 4, "name": "Community Kitchen", "type": "NGO", "donations": 54, "points": 1100 }
+  ],
+  "food": [
+    { "id": 101, "type": "Rice Meal Boxes", "qty": 40, "expiry": "6 hours", "donor": "Green Cafe", "location": "Sector 24", "status": "Available", "pickup": true },
+    { "id": 102, "type": "Veg Thali", "qty": 20, "expiry": "4 hours", "donor": "Community Kitchen", "location": "Old City", "status": "Available", "pickup": false },
+    { "id": 103, "type": "Bread Packs", "qty": 100, "expiry": "24 hours", "donor": "FreshMart", "location": "Market Road", "status": "Available", "pickup": true },
+    { "id": 104, "type": "Cooked Curry", "qty": 18, "expiry": "5 hours", "donor": "Aditya Dhiman", "location": "Green Park", "status": "Pending Approval", "pickup": true }
+  ],
+  "users": [ "aditya@example.com", "manager@greencafe.com", "admin@feedforward.org" ]
+}
